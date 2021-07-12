@@ -89,6 +89,17 @@ h1 {
   color: #2D4521;
 }
 
+.btn-outline-logo {
+  border-width: 0.5;
+  background-color: #38B6FF;
+  color: #FFFFFF;
+}
+
+.btn-outline-logo:hover {
+  background-color: #FFFFFF;
+  color: #38B6FF;
+}
+
 /* ID's CSS */
 
 #co {
@@ -229,6 +240,13 @@ footer {
   height: 1100px;
 }
 
+.box-4 {
+  height: 600px;
+}
+
+.box-3 {
+  height: 500px;
+}
 
 .pTag-description {
   margin-inline-start: 400px;
@@ -373,4 +391,45 @@ footer {
 
 .unicorn {
   margin-inline-start: 200px;
+}
+
+.pTag-move {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.ul-move {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.box-5 {
+
+}
+
+.box-12 {
+  height: auto;
+}
+
+.box-13 {
+  height: 200px;
+}
+
+.pTag-description-footer {  
+  text-align: center;
+  font-size: 20px;
+}
+
+.h1-heading-footer {
+  font-size: 60px;
+}
+
+.h2-description-exercise {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+.h2-description-yoga {
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
 }

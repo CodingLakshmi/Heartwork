@@ -34,16 +34,16 @@
       padding: 15px;
       align-content: center;
       width: 300px;
-      /* margin-left: 10px; */
-      /* margin-inline-start: 270px; */
+      /* margin-left: 10px; 
+      margin-inline-start: 270px; */
     }
 
     .btn-crisis {
       padding: 15px;
       align-content: center;
       width: 300px;
-      /* margin-left: 200px;
-      margin-right: 0px; */
+      margin-left: 246px;
+      margin-right: 0px;
     }
 	</style>
 </head>
@@ -106,7 +106,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="help.html">Tips</a>
-            <a class="dropdown-item" href="#connect">Connect</a>
+            <a class="dropdown-item" href="https://www.psychologytoday.com/us/therapists">Connect</a>
             <!-- <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a> -->
           </div>
@@ -133,24 +133,15 @@
       <div class="row">
         <div class="col-12 mt-3">
           <input type="text" id="myFilter" class="form-control searchbar-width" onkeyup="myFunction()" placeholder="Search content...">
-          <!-- <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-          </form> -->
           </div>
         </div>
       <div class="row d-flex justify-content-center">
-        <!-- </div> -->
-          <!-- <br>
-          <br> -->
-          <!-- <center> -->
-            <div class="col">
-              <a href="https://suicidepreventionlifeline.org/" class="btn btn-primary btn-crisis" target="_BLANK">Crisis Line</a>
-            </div>
-            <div class="col">
-              <a href="https://www.samhsa.gov/find-help/national-helpline" class="btn btn-primary btn-help" target="_BLANK">Help Line</a>
-            </div>
-          <!-- </center> -->
+          <div class="col">
+            <a href="https://suicidepreventionlifeline.org/" class="btn btn-primary btn-crisis" target="_BLANK">Crisis Line</a>
+          </div>
+          <div class="col">
+            <a href="https://www.samhsa.gov/find-help/national-helpline" class="btn btn-primary btn-help" target="_BLANK">Help Line</a>
+          </div>
         </div>
       </div>
     </div>
@@ -179,18 +170,18 @@
           <!--move-->
           <div class="card-body">
             <h5 class="card-title">Move</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Yoga</a>
-            <a href="#" class="card-link">Exercise</a>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Are you intrested in learning soothing movements that could help you relax and calm down a bit? Then check out these awesome pages linked below to find awesome information about movements!</p>
+            <a href="soothe.html#move" class="card-link">Yoga</a>
+            <a href="soothe.html#move" class="card-link">Exercise</a>
           </div>
         </div>
         <div class="card mr-5 ml-5 mt-5" style="width: 18rem;">
           <!--breathe-->
           <div class="card-body">
             <h5 class="card-title">Breathe</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Ever feel frustrated or helpess? You may be lacking meditation and breathing excerises. Click on the links below to learn more about mediation and breathing excersises.</p>
             <a href="soothe.html#meditation" class="card-link">Meditation</a>
             <a href="soothe.html#mindfulness" class="card-link">Mindfulness</a>
           </div>
@@ -199,9 +190,9 @@
           <!--listen-->
           <div class="card-body">
             <h5 class="card-title">Listen</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Music Library</a>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Do you like listening to background music or sounds while studying or reading? Check out a full library of music to listen to! You just have to click on the link below and pick a song to listen.</p>
+            <a href="soothe.html#listen" class="card-link">Music Library</a>
             <!-- <a href="#" class="card-link">Another link</a> -->
           </div>
         </div>
@@ -219,60 +210,69 @@
       <div class="row">
         <div class="col">
           <div class="box ml-5 mt-3">
-            <h2 class = "h2-heading-home">Personal</h2>
+            <h2 class = "h2-heading-home">
+              <a href="help.html#personal">Personal</a>
+            </h2>
           </div>
           <div class="box ml-5 mt-3">
-            <h2 class = "h2-heading-home">Professional</h2>
+            <h2 class = "h2-heading-home">
+              <a href="help.html#professional">Professional</a>
+            </h2>
           </div>
           <div class="box ml-5 mt-3">
-            <h2 class = "h2-heading-home">Academic</h2>
+            <h2 class = "h2-heading-home">
+              <a href="academic">Academic</a>
+            </h2>
           </div>
         </div>
       </div>
       <div class = "col">
         <div id="breathing-button"></div>
       </div>
-    </div>  
+    </div>
   </div>
-  
-<script>
-  window.watsonAssistantChatOptions = {
-      integrationID: "71d28492-3a1f-4c7d-96f8-79975b92b178", // The ID of this integration.
-      region: "us-south", // The region your integration is hosted in.
-      serviceInstanceID: "fa11eb7c-1c9a-48b6-a292-f4d7e8cac55c", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-    document.head.appendChild(t);
-  });
-</script>
+
   <footer>
     </br>
-    <h1>Heartwork</h1>
-		<p class = "pTag-description">Sed imperdiet magna nec nisl bibendum fringilla. Quisque tempus, lectus non molestie ornare, sapien nulla ultricies ex, vitae rhoncus urna nulla vel libero.</p>
+    <h1 class = "h1-heading-footer">Heartwork</h1>
+		<p class = "pTag-description-footer">
+      "Your social-emotional companion"
+    </p>
     </br>
     <center>
-      <a href="contact_us.html" class = "contact-btn">Contact Us</a>
+      <a href="contact.html" class = "contact-btn">Contact Us</a>
     </center>
     </br>
     </br>
     </br>
     <center>
       <div class = "icons"> 
-        <a href="">
+        <a href="https://github.com/CodingLakshmi/Heartwork">
           <img src="Images/github_icon_img.jpg" alt="gitHub icon image" class = "gitHub">
         </a>
-        <a href="">
+        <a href="https://devpost.com/software/heartwork">
           <img src="Images/Devpost_icon_img.png" alt="devpost icon image" class = "devpost">
         </a>
-        <a href="">
+        <a href="https://youtu.be/yepinN4ximg">
           <img src="Images/youtube_icon_img.png" alt="youtube icon image" class = "youtube">
         </a>
         <br>
       </div>
     </center>
   </footer>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "71d28492-3a1f-4c7d-96f8-79975b92b178", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "fa11eb7c-1c9a-48b6-a292-f4d7e8cac55c", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
 </body>
 </html>
